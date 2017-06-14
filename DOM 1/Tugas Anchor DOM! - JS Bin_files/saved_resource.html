@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://null.jsbin.com/runner -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Tugas Anchor DOM!</title>
+  <style id="jsbin-css">
+
+</style>
+</head>
+  <body>
+    <div id="container">
+      <h1 id="fill-me">HALO</h1>
+      <p class="change-all-of-me">HALO JUGA!</p>
+      <p class="change-all-of-me">HALO JUGA!</p>
+      <p class="change-all-of-me">HALO JUGA!</p>
+      <p class="change-all-of-me">HALO JUGA!</p>
+      <h2>Apa kabar?</h2>
+    </div>
+    <script src="./script.js.download"></script>
+  <script>try {//WEEK 5 - Senin
+var fillMeElement = document.getElementById("fill-me");
+var changeAllElements = document.getElementsByClassName("change-all-of-me");
+var titleElements = document.getElementById("container").getElementsByTagName("h2");
+
+// fill-me
+var fillMeElementContent = 
+fillMeElement.innerHTML;
+window.runnerWindow.proxyConsole.log( fillMeElementContent);
+
+fillMeElement.innerHTML = 'HALO';
+var newFillMeElement = fillMeElement.innerHTML;
+window.runnerWindow.proxyConsole.log(newFillMeElement);
+
+// change-all-of-me
+{;window.runnerWindow.protect.protect({ line: 16, reset: true }); for( var i=0; i < changeAllElements.length; i++){;
+if (window.runnerWindow.protect.protect({ line: 16 })) break;
+
+ 	var allChangeAllElement = changeAllElements[i];
+ 	allChangeAllElement.innerHTML = 'HALO JUGA!';
+ 	var allChangeAllElementContent = allChangeAllElement.innerHTML;
+ 	window.runnerWindow.proxyConsole.log(allChangeAllElementContent);
+}}
+
+var titleElementContent = titleElements[0].innerHTML;
+window.runnerWindow.proxyConsole.log(titleElementContent);
+
+titleElements[0].innerHTML = 'Apa kabar?';
+var newTitleElement = titleElements[0].innerHTML;
+window.runnerWindow.proxyConsole.log(newTitleElement);
+} catch (error) { throw error; }
+
+//# sourceURL=zivefivaya.js
+</script>
+
+</body></html>

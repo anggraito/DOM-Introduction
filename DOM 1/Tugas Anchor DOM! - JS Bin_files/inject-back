@@ -1,0 +1,5 @@
+document.getElementById('bsaapi').innerHTML = '<a href="" target="_blank">: </a><img src="" height=1 width=1 border=0 style="display:none">';
+
+$('#bsaapi a').click(function () {
+  jsbin.analytics.track('ad', 'click', 'bsa');
+});

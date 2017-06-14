@@ -1,0 +1,23 @@
+body{
+	/*background-image: url(img-body.jpg);*/
+	/*background-color: #000;*/
+	background: url(assets/img-body.jpg) no-repeat center center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	color: #fff;
+}
+h2{
+	text-align: center;
+}
+#form-registration{
+	background-color: rgba(0, 0, 0, 0.4);
+	/*width: 50%;*/
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 20px;
+}
+fieldset{
+	border: 0;
+	border-radius: 10px;
+}

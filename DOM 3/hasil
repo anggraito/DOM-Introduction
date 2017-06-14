@@ -1,0 +1,31 @@
+// if (inputUsername.value == "" || inputPassword.value == "" || confirmPassword.value == "" || inputEmail.value == "" || confirmEmail.value == "") {
+// 		//alert('Field tidak boleh ada yang kosong!!');  
+// 		if(inputUsername.value == "" && inputPassword.value == "" ){
+// 		  	alert('username kosong')
+// 		}
+// 		if(inputUsername.value != "" && inputPassword.value == "" ) {
+// 		  	alert('Password mana boleh kosong');
+// 		}
+// 		if(inputPassword.value != "" && confirmPassword.value == "") {
+// 		  	alert('Confirm Password diperlukan');
+// 		}
+// 		if(inputPassword.value != "" && confirmPassword.value != ""){
+// 			if(inputPassword.value === confirmPassword.value && inputEmail.value == "" ) {
+// 			  	alert('Email wajib diisi');
+// 			}
+// 			else if(inputPassword.value !== confirmPassword.value){
+// 				alert('Password tidak sama')
+// 			}
+// 		}
+// 		if(inputEmail.value != "" && confirmEmail.value == "") {
+// 		  alert('Confirm Email diperlukan');
+// 		}
+// 		if(inputEmail.value != "" && confirmEmail.value != ""){
+// 			if(inputEmail.value !== confirmEmail.value){
+// 			  	alert('Email')
+// 			}
+// 		}
+// 	  }
+	 //  else{
+		// alert('Berhasil kah?')
+	 //  }
