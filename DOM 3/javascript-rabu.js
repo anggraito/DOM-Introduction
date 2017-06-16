@@ -27,13 +27,19 @@
 			}
 		}
 		if(inputEmail.value != "" && confirmEmail.value == "") {
-			if(inputEmail.value != confirmEmail.value){
-				alert('Email belum sama');
+		   alert('Confirm Email diperlukan');
+		   if(inputEmail.value !== confirmEmail.value ){
+				alert("Email belum sama");
 			}
-		    else{
-		    	alert('Confirm Email diperlukan');
-		    }
 		}
+		// if(inputEmail.value != "" && confirmEmail.value != ""){
+		// 	if(inputEmail.value !== confirmEmail.value ){
+		// 		alert("Email belum sama");
+		// 	}
+		// 	else{
+		// 		alert('yeay')
+		// 	}
+		// }
 	}
 	else if(inputUsername.value != "" && inputPassword.value === confirmPassword.value && inputEmail.value === confirmEmail.value ){
 		alert('BERHASIL');
